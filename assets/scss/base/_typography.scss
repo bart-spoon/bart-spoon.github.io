@@ -4,6 +4,7 @@ body {
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
+  background: linear-gradient($base-border-color 0, $base-background-color 110px);
 }
 
 h1,
