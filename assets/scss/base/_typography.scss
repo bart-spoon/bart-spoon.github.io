@@ -1,8 +1,10 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  // font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
   font-size: $base-font-size;
+  font-optical-sizing: auto;
+  font-style: normal;
   line-height: $base-line-height;
 }
 
